@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @GetMapping("/")
     public String HelloWorld(){
-        return "To-do-Application";
+        return "To-do-Application version 2";
     }
 }
